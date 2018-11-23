@@ -18,6 +18,14 @@ document.addEventListener("DOMContentLoaded", function(){
     var radioDigital = document.getElementById("digital");
     var radioFisico = document.getElementById("fisico");
     
+    var reset = document.getElementById("boton-res");
+
+    reset.addEventListener("click", function(){
+        subTtotal.innerHTML=0;
+        cant.innerHTML=0;
+        precioTotal.innerHTML=0;
+        precioEnvio.innerHTML=0;
+    });
     cant.addEventListener("change", function(){
         var cantidad= cant.value;
         cantidad = parseInt(cantidad);

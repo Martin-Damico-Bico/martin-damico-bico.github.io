@@ -365,6 +365,13 @@ h5{
 	margin: 0px 0px 0px 2px;
 	background-color: yellow;
 }
+#boton-res{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px 0px 0px 2px;
+	background-color: yellow;
+}
 #cant{
 	margin: 0px 24px 0px 2px;
 }

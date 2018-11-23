@@ -32,6 +32,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     radioDigital.addEventListener("change", function(){
         formato.style.display = "none";
+        precioEnvio=0;
+
+        subTtotal.innerHTML = subtotal;
+        num = subtotal * 1.22;        
+        precioTotal.innerHTML = num.toFixed(2);
     });
 
     radioFisico.addEventListener("change", function(){

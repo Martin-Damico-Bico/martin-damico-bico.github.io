@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", function(){
         cant.innerHTML=0;
         precioTotal.innerHTML=0;
         precioEnvio.innerHTML=0;
+        presEnvio.innerHTML=0;
     });
+
     cant.addEventListener("change", function(){
         var cantidad= cant.value;
         cantidad = parseInt(cantidad);
@@ -41,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function(){
     radioDigital.addEventListener("change", function(){
         formato.style.display = "none";
         precioEnvio=0;
+        presEnvio.innerHTML = precioEnvio;
 
         subTtotal.innerHTML = subtotal;
         num = subtotal * 1.22;        
@@ -49,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
     radioFisico.addEventListener("change", function(){
         formato.style.display = "block";
+
+        presEnvio.innerHTML = precioEnvio;        
     });
 
     envioComun.addEventListener("change", function(){

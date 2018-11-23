@@ -1,0 +1,102 @@
+/* MENU DE NAVEGACIÓN */
+#menu{
+	position: fixed;	
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+#menu li a {
+	padding: 2px 7px 2px 7px;
+	color: white;
+	background-color: black;
+	border: 1.5px solid white;
+	text-decoration: none;
+	font-size: 20px; 
+}
+#menu li a:hover{
+	background-color: blue;
+	color: #ffffff;
+}
+@font-face{
+	font-family: "letra";
+	src: url("../font/letra.ttf");
+}
+html {
+ font-family:"letra", "Bitstream Vera Serif", serif;
+}	
+/* DOTA 2 */
+#dota{
+	background-image: url(../fotos/fondo1.gif);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#p-dota{
+	font-size: 30px;
+}
+#titulo-dota{
+	font-size: 80px;
+	color: red;
+}
+#h2-dota{
+	font-size: 60px;
+}
+#h3-dota{
+	font-size: 40px;
+}
+#a-dota{
+	color: white;
+}
+#label-dota{
+	font-size: 20px;
+}
+#boton-dota{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px -50px 0px 2px;
+	background-color: yellow;
+}
+
+@media screen and (min-width: 695px) and (max-width: 800px){
+ul li{
+	width: 27%;
+	padding: 5px 1px 5px 5px;
+}
+#titulo-dota{
+	padding: 100px 10px 20px 5px;
+	font-size: 60px;
+}
+}
+@media screen and (min-width: 486px) and (max-width: 694px){
+ul li{
+	width: 40%;
+	padding: 2px 1px 10px 1px;
+}
+#titulo-dota{
+	padding: 100px 10px 20px 5px;
+	font-size: 50px;
+}
+}
+@media screen and (max-width: 485px){
+ul li{
+	width: 100%;
+	padding: 5px 10px 10px 0;
+}
+#titulo-dota{
+	padding: 250px 10px 10px 5px;
+	font-size: 50px;
+}
+img{
+	width: 100%;
+}
+}

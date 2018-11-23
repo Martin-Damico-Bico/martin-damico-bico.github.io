@@ -1,0 +1,502 @@
+/* MENU DE NAVEGACIONN */
+#menu{
+	position: fixed;	
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+#menu li a {
+	padding: 2px 10px 2px 7px;
+	color: white;
+	background-color: black;
+	border: 1.5px solid white;
+	text-decoration: none;
+	font-size: 20px; 
+}
+#menu li a:hover{
+	background-color: blue;
+	color: #ffffff;
+}
+
+/* LETRA */
+@font-face{
+	font-family: "letra";
+	src: url("../font/letra.ttf");
+}
+html {
+	font-family:"letra", "Bitstream Vera Serif", serif;
+}
+/* INDEX */
+#index{
+	background-image: url(../fotos/fondo.png);
+	background-position: center;
+	font-size: 20px; 
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+#titulo-index{
+	color: red;
+	font-size: 70px;
+	text-shadow: 0 0 20px #fefcc9,
+	10px -10px 30px #feec85,
+	-20px -20px 40px #ffae34,
+	20px -30px 35px #ec760c,
+	-20px -40px 40px #cd4606,
+	0 -50px 65px #973716,
+	10px -70px 70px #451b0e;
+	padding: 45px 10px 20px 5px;
+}
+
+/* INICIO SESION */
+#inicio{
+	background-image: url(../fotos/fondo3.png);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 20px; 
+}
+#titulo-inicio{
+	padding: 18px 100px 0px 100px;
+	font-size: 60px;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+label{
+	padding-right: 10px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+#campo2{
+	margin: 3px -2px 10px 28px;
+}
+#boton-inicio{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px -50px 0px 85px;
+	background-color: yellow;
+}
+
+
+/* CONTACTO */
+#contacto{
+	background-image: url(../fotos/fondo4.png);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#titulo-contacto{
+	padding: 18px 100px 0px 100px;
+	font-size: 60px;
+}
+#h3-contacto {
+	font-size: 30px;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+#label-contacto{
+	padding-right: 10px;
+	font-size: 20px;
+	color: black;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+#campo3{
+	margin: 0px 0px 0px 2px;
+}
+#campo4{
+	margin: 0px 7px 0px 2px;
+}
+#campo5{
+	margin: 4px 24px 3px 2px;
+}
+#boton-contacto{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px -50px 0px 2px;
+	background-color: yellow;
+}
+#form-contacto{
+	padding-left: 100px;
+}
+
+/* Registro */
+#registro{
+	background-image: url(../fotos/fondo2.png);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#titulo-registro {
+	padding: 30px 70px -10px 100px;
+	font-size: 60px;
+	color: black;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+#h3-registro {
+	font-size: 30px;
+	color: black;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+#label-registro{
+	padding-right: 10px;
+	font-size: 20px;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+#campo6{
+	margin: 0px 0px 0px 2px;
+}
+#campo7{
+	margin: 0px -7px 0px 2px;
+}
+#campo8{
+	margin: 0px -20px 0px 2px;
+}
+#campo9{
+	margin: 0px 23px 0px 2px;
+}
+#campo10{
+	margin: 0px 87px 13px 2px;
+}
+#boton-registro{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 2px -46px 0px 48px;
+	background-color: yellow;
+}
+
+/* DIABLO III */
+#diablo{
+	background-image: url(../fotos/fondo.gif);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: black;
+}
+#titulo-diablo{
+	color: black;
+	font-size: 80px;
+	text-shadow: 0 0 20px #fefcc9,
+	10px -10px 30px #feec85,
+	-20px -20px 40px #ffae34,
+	20px -30px 35px #ec760c,
+	-20px -40px 40px #cd4606,
+	0 -50px 65px #973716,
+	10px -70px 70px #451b0e;
+	padding: 45px 10px 20px 5px;
+}
+#p-diablo {
+	font-size: 30px;
+}
+#p-diablo1 {
+	font-size: 30px;
+}
+#p-diablo2 {
+	font-size: 30px;
+}
+#p-diablo3 {
+	font-size: 30px;
+}
+#p-diablo4 {
+	font-size: 30px;
+}
+#p-diablo5 {
+	font-size: 30px;
+}
+#h2-diablo{
+	font-size: 60px;
+}
+#h2-diablo1{
+	font-size: 60px;
+}
+#h2-diablo2{
+	font-size: 60px;
+}
+#h2-diablo3{
+	font-size: 60px;
+}
+#h2-diablo4{
+	font-size: 60px;
+}
+#h2-diablo5{
+	font-size: 60px;
+}
+#h3-diablo{
+	font-size: 50px;
+}
+#h3-diablo1{
+	font-size: 50px;
+}
+#h3-diablo2{
+	font-size: 50px;
+}
+#h3-diablo3{
+	font-size: 50px;
+}
+#h3-diablo4{
+	font-size: 50px;
+}
+#label-diablo{
+	font-size: 20px;
+}
+#boton-diablo{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px -50px 0px 2px;
+	background-color: yellow;
+}
+
+/* DOTA 2 */
+#dota{
+	background-image: url(../fotos/fondo1.gif);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#p-dota{
+	font-size: 30px;
+}
+#titulo-dota{
+	font-size: 80px;
+	color: red;
+}
+#h2-dota{
+	font-size: 60px;
+}
+#h3-dota{
+	font-size: 40px;
+}
+#a-dota{
+	color: white;
+}
+#label-dota{
+	font-size: 25px;
+}
+#boton-dota{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px -50px 0px 2px;
+	background-color: yellow;
+}
+
+
+/*   Compra   */
+
+#compra{
+	background-image: url(../fotos/gow.png);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#h1-compra{
+	text-shadow: 1px 1px 20px white;
+	padding: 8px 10px 0px 7px;
+	font-size: 70px;
+}
+#p-compra{
+	color: white;
+	text-shadow: 2px 2px 20px #FF0000;
+	font-size: 30px;
+}
+h4{
+	font-size: 40px;
+	color: black;
+	text-shadow: 1px 1px 20px white;
+}
+h5{
+	font-size: 30px;
+	color: black;
+	text-shadow: 1px 1px 20px white;
+}
+#boton-compra{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 0px 0px 0px 2px;
+	background-color: yellow;
+}
+#cant{
+	margin: 0px 24px 0px 2px;
+}
+#nombre{
+	margin: 0px 24px 0px 2px;
+}
+#Email{
+	margin: 0px 0px 0px 2px;
+}
+#dir{
+	margin: 0px 150px 0px 2px;
+}
+#label-compra{
+	font-size: 25px;
+}
+
+/* esto es para todos */
+
+body{ 
+	text-align: center; 
+}
+ul li{
+	list-style-type: none;
+}
+span{
+	color: red;
+}
+
+
+
+
+
+/*MEDIA*/
+@media screen and (min-width: 695px) and (max-width: 800px){
+	ul li{
+		width: 27%;
+		padding: 5px 1px 5px 5px;
+	}
+	#titulo-index{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+	#titulo-inicio{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+	#titulo-contacto{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+	#label-contacto{
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+	}
+	#titulo-registro{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+	#titulo-diablo{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+	img{
+		width: 100%;
+	}
+	#titulo-dota{
+		padding: 100px 10px 20px 5px;
+		font-size: 60px;
+	}
+}
+
+
+@media screen and (min-width: 486px) and (max-width: 694px){
+	ul li{
+		width: 40%;
+		padding: 2px 1px 10px 1px;
+	}
+	#titulo-index{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+	#titulo-inicio{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+	#titulo-contacto{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+	#label-contacto{
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+	}
+	#titulo-registro{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+	#titulo-diablo{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+	img{
+		width: 100%;
+	}
+	#titulo-dota{
+		padding: 100px 10px 20px 5px;
+		font-size: 50px;
+	}
+}
+
+
+
+@media screen and (max-width: 485px){
+	ul li{
+		width: 100%;
+		padding: 5px 10px 10px 0;
+	}
+	#titulo-index{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+	}
+	#titulo-inicio{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+	}
+	#titulo-contacto{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+		color: black;
+	}
+	#h3-contacto{
+		color: black;
+	}
+	#label-contacto{
+		color: white;
+	}
+	#titulo-registro{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+	}
+	#titulo-diablo{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+	}
+	img{
+		width: 100%;
+	}
+	#titulo-dota{
+		padding: 250px 10px 10px 5px;
+		font-size: 50px;
+	}
+}
+

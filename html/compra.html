@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="../js/compra.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Compre Juego</title>
+</head>
+<body id="compra">
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo de Juegos</a></li>
+            <li><a href="iniciosesion.html">Iniciar Sesión</a></li>
+            <li><a href="registro.html">Registrarse</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>  
+    <h1 id="h1-compra">COMPRA</h1>
+    <p id="p-compra">Precio sin envio y sin iva, es de $640 Uruguayos</p>
+    <form action="url-accion" method="post">
+        <div>
+            <label id="label-compra" for="cant">Cantidad</label>
+            <input id="cant" type="number" min="0" required>
+        </div>
+        <div>
+            <label id="label-compra" for="pago">Medio de Pago</label>
+            <div>
+                <input id="efectivo" type="radio" name="medio-pago" required>
+                <label id="label-compra" for="efectivo">Efectivo</label>
+
+                <input id="ebru" type="radio" name="medio-pago" required>
+                <label id="label-compra" for="ebru">Ebrou</label>
+
+                <input id="abitab" type="radio" name="medio-pago" required>
+                <label id="label-compra" for="abitab">Abitab</label>
+
+                <input id="redpagos" type="radio" name="medio-pago" required>
+                <label id="label-compra" for="redpagos">RedPagos</label>
+            </div>
+            <div>
+                <label id="label-compra" for="nombre">Nombre</label>
+                <input  id="nombre" type="text" required>
+            </div>
+            <div>
+                <label id="label-compra" for="Email">Email</label>
+                <input id="Email" type="email" required>
+            </div>
+            <div>
+                <label id="label-compra" for="formato">Formato</label>
+                <div>
+                    <input id="fisico" type="radio" name="formato" required>
+                    <label id="label-compra" for="fisico">Fisico</label>
+
+                    <input id="digital" type="radio" name="formato" required>
+                    <label id="label-compra" for="digital">Digital</label>
+                </div>
+            </div>
+            <div id="form-fisico">
+                <div>
+                    <label id="label-compra" for="dir">Direccion de Entrega</label>
+                    <input id="dir" type="text">
+                </div>
+                <div>
+                 <label id="label-compra" for="envio">Metodo de Envio</label>
+                 <div>
+                     <input id="comun" type="radio" name="metodo" >
+                     <label id="label-compra" for="ebru">Comun (0.5%)</label>
+
+                     <input id="Especial" type="radio" name="metodo" >
+                     <label id="label-compra" for="Especial">Especial (2%)</label>
+
+                     <input id="Premium" type="radio" name="metodo" >
+                     <label id="label-compra" for="Premium">Premium (5%)</label>
+                 </div>
+             </div>
+         </div>
+            <h5>Precio de envio: $<strong id="pre-envio"></strong></h5>
+            <h5>SubTotal: $ <strong id="subtotal"></strong></h5>
+            <h4>Precio Final (con iva del 22%): $<strong id="total"></strong></h4>
+        <div class="button">
+            <button id="boton-compra" type="submit">Guardar</button>
+            <button id="boton-compra" type="reset">Borrar datos</button>
+        </div>
+    </form>
+</body>
+</html>

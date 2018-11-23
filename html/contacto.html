@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body id="contacto">
+	<nav id="menu">
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="catalogo.html">Catálogo de Juegos</a></li>
+			<li><a href="iniciosesion.html">Iniciar Sesión</a></li>
+			<li><a href="registro.html">Registrarse</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>		
+	<h1 id="titulo-contacto">Contacto</h1>
+	<form action="url-accion" method="post" id="form-contacto">
+		<h3 id="h3-contacto">Los campos con <span>*</span> son obligatorios</h3>
+		<div>
+			<label id="label-contacto" for="campo3">Email<span>*</span>:</label>
+			<input type="email" id ="campo3" name="email" required>
+		</div>
+		<div>
+			<label id="label-contacto" for="campo4">Nombre:</label>
+			<input type="text" id ="campo4" name="nombre">
+		</div>
+		<div>
+			<label id="label-contacto" for="campo5">Mensaje<span>*</span>:</label>
+			<textarea id="campo5" name="mensaje" required></textarea>
+		</div>
+		<div class="button">
+			<button id="boton-contacto" type="submit">Enviar</button>	
+		</div>
+	</form>
+</body>
+</html>

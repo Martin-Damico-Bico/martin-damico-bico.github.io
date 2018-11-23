@@ -1,0 +1,111 @@
+/* MENU DE NAVEGACIÓN */
+#menu{
+	position: fixed;	
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+#menu li a {
+	padding: 2px 7px 2px 7px;
+	color: white;
+	background-color: black;
+	border: 1.5px solid white;
+	text-decoration: none;
+	font-size: 20px; 
+}
+#menu li a:hover{
+	background-color: blue;
+	color: #ffffff;
+}
+
+/* INICIO SESION */
+#registro{
+	background-image: url(../fotos/fondo2.png);
+	background-position: center;	
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: white;
+}
+#titulo-registro {
+	padding: 30px 70px -10px 100px;
+	font-size: 60px;
+	color: black;
+}
+#h3-registro {
+	font-size: 30px;
+	color: black;
+}
+#label-registro{
+	padding-right: 10px;
+	font-size: 20px;
+}
+#campo6{
+	margin: 0px 0px 0px 2px;
+}
+#campo7{
+	margin: 0px 3px 0px 2px;
+}
+#campo8{
+	margin: 0px -18px 0px 2px;
+}
+#campo9{
+	margin: 0px 23px 0px 2px;
+}
+#campo10{
+	margin: 0px 87px 13px 2px;
+}
+span{
+	color: red;
+}
+#boton-registro{
+	border: 2px solid black;
+	color: black;
+	font-size: 18px;
+	margin: 2px -46px 0px 48px;
+	background-color: yellow;
+}
+@font-face{
+	font-family: "letra";
+	src: url("../font/letra.ttf");
+}
+html {
+ font-family:"letra", "Bitstream Vera Serif", serif;
+}	
+@media screen and (min-width: 695px) and (max-width: 800px){
+ul li{
+	width: 27%;
+	padding: 5px 1px 5px 5px;
+}
+#titulo-registro{
+	padding: 100px 10px 20px 5px;
+	font-size: 60px;
+}
+}
+@media screen and (min-width: 486px) and (max-width: 694px){
+ul li{
+	width: 40%;
+	padding: 2px 1px 10px 1px;
+}
+#titulo-registro{
+	padding: 100px 10px 20px 5px;
+	font-size: 50px;
+}
+}
+@media screen and (max-width: 485px){
+ul li{
+	width: 100%;
+	padding: 5px 10px 10px 0;
+}
+#titulo-registro{
+	padding: 250px 10px 10px 5px;
+	font-size: 50px;
+}
+}

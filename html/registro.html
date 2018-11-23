@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body id="registro">
+	<nav id="menu">
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="catalogo.html">Catálogo de Juegos</a></li>
+			<li><a href="iniciosesion.html">Iniciar Sesión</a></li>
+			<li><a href="registro.html">Registrarse</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>	
+	<h1 id="titulo-registro">Crear Cuenta</h1>		
+	<form action="url-accion" method="post">
+		<h3 id="h3-registro">Los campos con <span>*</span> son obligatorios</h3>
+		<div>
+			<label id="label-registro" for="campo6">Nombre<span>*</span>:</label>
+			<input type="text" id ="campo6" name="nombre" required maxlength="30" title="">
+		</div>
+		<div>
+			<label id="label-registro" for="campo7">Apellido<span>*</span>:</label>
+			<input type="text" id ="campo7" name="Apellido" required maxlength="30">
+		</div>
+		<div>
+			<label id="label-registro" for="campo8">Email<span>*</span>:</label>
+			<input type="email" id ="campo8" name="email" required>	
+		</div>
+		<div>
+			<label id="label-registro" for="campo9">Contraseña<span>*</span>:</label>
+			<input type="password" id ="campo9" name="paswd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,24}" title="El formato tiene que tener un minimo de 8 y maximo de 24 y contener por lo menos una Mayuscula, una minuscula y un numero">
+		</div>
+		<div>
+			<label id="label-registro" for="campo10">Repetir Contraseña<span>*</span>:</label>
+			<input type="password" id ="campo10" name="paswd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,24}">	
+		</div>		
+		<div class="button">
+			<button id="boton-registro" type="submit">Crear Cuenta</button>
+			<button id="boton-registro" type="reset">Borrar datos</button>
+		</div>
+	</form>
+</body>
+</html>

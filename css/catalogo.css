@@ -1,0 +1,212 @@
+/* MENU DE NAVEGACIÓN */
+#menu{
+	position: fixed;	
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+#menu li a {
+	padding: 2px 7px 2px 7px;
+	color: white;
+	background-color: black;
+	border: 1.5px solid white;
+	text-decoration: none;
+	font-size: 20px; 
+}
+#menu li a:hover{
+	background-color: blue;
+	color: #ffffff;
+}
+
+/* CATALOGO */
+body{
+	background-image: url(../fotos/fondo1.png);
+	font-size: 20px;   
+	background-size: 100% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center; 
+	color: red;
+}
+h2{
+	font-style:italic;
+	font-weight:bold;
+	font-size: 50px;
+	text-decoration: underline;	
+}
+h1{
+	font-size: 70px;
+	text-shadow: 1px 1px 1px white;
+}
+
+a{
+	color: red;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+p{
+	color: white;
+	text-shadow: 2px 2px 8px #FF0000;
+	text-decoration: underline red;
+}
+
+#juegos li{
+	padding-left: 0;
+	display: inline-block;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 25px;
+}
+#juegos1 li{
+	padding-left: 0;
+	display: inline-block;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 25px;
+}
+#juegos2 li{
+	padding-left: 0;
+	display: inline-block;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+@font-face{
+	font-family: "letra";
+	src: url("../font/letra.ttf");
+}
+html {
+	font-family:"letra", "Bitstream Vera Serif", serif;
+}	
+
+
+@media screen and (min-width: 695px) and (max-width: 800px){
+	body{
+		text-align: center; 
+	}
+	ul li{
+		width: 27%;
+		padding: 5px 1px 5px 5px;	
+	}
+	h1{
+		padding: 100px 10px 20px 5px;
+		font-size: 80px;
+	}
+	#juegos li{
+		display: block;
+		width:100%
+	}
+	#juegos1 li{
+		display: block;
+		width:100%
+	}
+	#juegos2 li{
+		display: block;
+		width:100%
+	}
+	img{
+		width: 100%
+	}
+	#id{
+		font-size: 50px;
+	}
+
+}
+
+@media screen and (min-width: 486px) and (max-width: 694px){
+	body{
+		text-align: center; 
+	}
+	ul li{
+		width: 40%;
+		padding: 2px 1px 10px 1px;
+	}
+	h1{
+		padding: 100px 10px 20px 5px;
+		font-size: 70px;
+	}
+	#juegos li{
+		display: block;
+		width: 100%
+	}
+	#juegos1 li{
+		display: block;
+		width: 100%
+	}
+	#juegos2 li{
+		display: block;
+		width: 100%
+	}
+	img{
+		width: 100%
+	}
+}
+
+
+@media screen and (max-width: 485px){
+	#juego{
+		display:block;
+	}
+	body{
+		text-align: center; 
+	}
+	ul li{
+		width: 100%;
+		padding: 5px 10px 10px 0;
+	}
+	h1{
+		padding: 250px 10px 10px 5px;
+		font-size: 60px;
+	}
+	#juegos li{
+		display: block;
+		width: 100%
+	}
+	#juegos1 li{
+		display: block;
+		width: 100%
+	}
+	#juegos2 li{
+		display: block;
+		width: 100%
+	}
+	img{
+		width: 100%
+	}
+}
+/*
+@media screen and (min-width: 500px) and (max-width: 800px){
+ul li{
+	width: 50%;
+}
+img{
+	width: 100%;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 499px){
+ul li{
+	width: 50%;
+}
+}
+@media screen (max-width: 399px){
+ul li{
+	width: 100%;
+}
+nav ul li{
+	display:block;
+	width: 100%;
+}
+}*/
